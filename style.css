@@ -15,3 +15,46 @@ body{
   margin-bottom: 1em;
   background-color: palevioletred;
 }
+.container{
+  layout:
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+  padding: 0%;
+  border-radius: 1rem ;
+  justify-content: center;
+ }
+
+.pokemon{
+display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  padding: 2em;
+  border-radius: 2em;
+  background-color: white;
+}
+.pokemon-image{
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50% ;
+  overflow: auto;
+  background-color: aqua;
+}
+
+.pokemon-name{
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}
+.pokemon-description{
+  line-height: 1.36em;
+}
+
+.pokemon-power{
+  display: flex;
+  flex-wrap: 1;
+  gap: 0.5em;
+  list-style: none;
+  
+}
